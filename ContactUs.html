@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Links CSS style to HTML file -->
+    <link rel="stylesheet" type="text/css" href="Home.css">
+    <script src="ajaxContactUs.js"></script>
+    <!-- Title for page -->
+    <title>Contact Us</title>
+</head>
+<h1>Ultimate Auto Sales</h1>
+<header>
+    <!-- Creates consistent navigation bar including Home, Inventory, Contact Us and Find Us page across header -->
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="Inventory.html">Inventory</a>
+        <a href="ContactUs.html">Contact Us</a>
+        <a href="FindUs.html">Find Us</a>
+    </nav>
+</header>
+
+<body>
+    <section class="container">
+        <h2>Contact Information</h2>
+        <!-- Unordered List for owner contact info -->
+        <ul>
+            <li>Name: Ehab Assaf</li>
+            <li>Title: Owner/Dealer</li>
+            <li>Phone: (336) 254-3348</li>
+            <li>Email: assafehab@yahoo.com</li>
+        </ul>
+        <!-- Unordered List for employee (my brother) contact info -->
+        <ul>
+            <li>Name: Ron Assaf</li>
+            <li>Title: Salesman/Dealer</li>
+            <li>Phone: (336) 517-6518</li>
+            <li>Email: roner14@live.com</li>
+        </ul>
+        <!-- Unordered List for employee (me) contact info -->
+        <ul>
+            <li>Name: Abdullah Assaf</li>
+            <li>Title: Salesman/Dealer</li>
+            <li>Phone: (336) 419-7652</li>
+            <li>Email: a.assaf14@gmail.com</li>
+        </ul>
+    </section>
+
+    <section class="container">
+        <h2>Schedule a Meeting</h2>
+        <!-- Creates a form for user to input First name, Last name, Email address and phone number -->
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname"> Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="phone">Phone number:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
+            <label for="contact">Preferred contact:</label><br>
+            <input type="radio" id="contact" name="contact">
+            <select>
+                <!-- allows user to select preference of phone or email -->
+                <option value="phone">Phone</option>
+                <option value="email">Email</option>
+            </select>
+            <!-- creates submit button -->
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+
+    <footer>
+        <div class="footer">
+            <!-- Creates consistent navigation bar including Home, Inventory, Contact Us and Find Us page across footer -->
+            <nav>
+            <a href="Home.html">Home</a>
+            <a href="Inventory.html">Inventory</a>
+            <a href="ContactUs.html">Contact Us</a>
+            <a href="FindUs.html">Find Us</a>
+            </nav>
+        </div>
+    </footer>
+</html>
